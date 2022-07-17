@@ -9,22 +9,21 @@ public class GreatestNumberPrinter {
 
         if (first > second) {
             System.out.println(first);
-        }
-        else {
+        } else {
             System.out.println(second);
         }
-    }
-    public void printGreatestSecondWhenBigger(int first, int second){
 
         first = -400;
+
         second = 1;
 
         if (first > second) {
             System.out.println(first);
         }
+
         else {
             System.out.println(second);
         }
-
     }
+
 }

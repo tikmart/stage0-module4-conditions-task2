@@ -7,22 +7,16 @@ public class CoinFlip {
         if (from1UpTo1000 > 500) {
 
             System.out.println("Tail");
-        }
-
-        else {
+        } else {
             System.out.println("Eagle");
         }
-    }
 
-    public void throwCoinEagleIfGreater(int from1UpTo1000){
         from1UpTo1000 = 501;
 
-        if (from1UpTo1000 > 500){
+        if (from1UpTo1000 > 500) {
 
             System.out.println("Tail");
-        }
-
-        else {
+        } else {
             System.out.println("Eagle");
         }
     }
